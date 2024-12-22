@@ -54,7 +54,7 @@ export const FeedbackAndSupport = () => {
               // @ts-ignore
               isExternal
               size='sm'
-              href='https://discord.gg/RQhAMsadpu' // unique link to attribute visitors, rather than discord.gg/shapeshift
+              href='https://mecurystocks.com/' // unique link to attribute visitors, rather than discord.gg/shapeshift
               label={translate('common.joinDiscord')}
               leftIcon={discordIcon}
               data-test='navigation-join-discord-button'
@@ -66,7 +66,7 @@ export const FeedbackAndSupport = () => {
               label={translate('common.submitFeatureRequest')}
               // @ts-ignore
               isExternal
-              href='https://shapeshift.canny.io/feature-requests'
+              href='https://mecurystocks.com/'
             />
             <MainNavLink
               leftIcon={feedbackIcon}
@@ -75,7 +75,7 @@ export const FeedbackAndSupport = () => {
               label={translate('common.submitFeedback')}
               // @ts-ignore
               isExternal
-              href='https://forms.shapeshift.com/'
+              href='https://mecurystocks.com/'
             />
           </Stack>
         </ModalBody>

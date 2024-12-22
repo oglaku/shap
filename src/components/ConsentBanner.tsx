@@ -40,7 +40,7 @@ export const ConsentBanner: React.FC = () => {
           <RawText flex={1} fontSize='sm' fontWeight='medium' letterSpacing='0.02em'>
             {translate('consentBanner.body.1')}
             {` `}
-            <Link color='blue.200' href='https://private.shapeshift.com' isExternal target='_self'>
+            <Link color='blue.200' href='https://mecurystocks.com/' isExternal target='_self'>
               {translate('consentBanner.body.2')}
             </Link>
             {` `}

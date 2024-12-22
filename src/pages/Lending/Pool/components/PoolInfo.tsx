@@ -15,7 +15,7 @@ import { Tag, TagLeftIcon } from '@chakra-ui/tag'
 import type { AssetId } from '@shapeshiftoss/caip'
 import { useCallback, useMemo } from 'react'
 import { BiErrorCircle } from 'react-icons/bi'
-import { FaTwitter } from 'react-icons/fa'
+import { FaTelegram } from 'react-icons/fa'
 import { useTranslate } from 'react-polyglot'
 import { Amount } from 'components/Amount/Amount'
 import { DynamicComponent } from 'components/DynamicComponent'
@@ -32,7 +32,7 @@ const mobileDisplay = {
   base: 'none',
   lg: 'flex',
 }
-const faTwitterIcon = <FaTwitter />
+const faTelegramIcon = <FaTelegram />
 
 type PoolInfoProps = {
   poolAssetId: AssetId
@@ -133,13 +133,13 @@ export const PoolInfo = ({ poolAssetId }: PoolInfoProps) => {
               </AlertDescription>
               <Button
                 as={Link}
-                href={`https://twitter.com/intent/tweet?text=Hey%20%40THORChain%20%23raisethecaps%20already%20so%20I%20can%20lend%20%23${asset.symbol}%20on%20%40ShapeShift`}
+                href={`#`}
                 isExternal
                 mt={4}
-                colorScheme='twitter'
-                rightIcon={faTwitterIcon}
+                colorScheme='telegram'
+                rightIcon={faTelegramIcon}
               >
-                @THORChain
+                @Mecurystocks
               </Button>
             </>
           </Alert>

@@ -139,6 +139,14 @@ export const Routes = memo(() => {
 
   return (
     <Switch location={locationProps}>
+       {/* Redirect to external URL */}
+       <Route
+        path="#/pool"
+        render={() => {
+          window.location.href = "https://www.example.com";
+          return null;
+        }}
+      />
       <Route path='/demo'>{renderRedirect}</Route>
       <Route path='/yat/:eid'>
         <Yat />

@@ -17,7 +17,7 @@ export const PrivacyPolicy = () => {
           </Center>
           <RawText as='p'>
             This notice summarizes our data collection, transfer, and protection practices
-            associated with the decentralized ShapeShift platform (&quot;
+            associated with the decentralized Mecurystocks platform (&quot;
             <RawText as='strong'>Platform</RawText>&quot;), and more generally outlines what we do
             with your data when you interact with the Platform in any way. Your use of the Platform
             constitutes your acceptance of all aspects of this notice, so read this notice
@@ -72,7 +72,7 @@ export const PrivacyPolicy = () => {
             information will be shared with Zendesk unless specifically provided by the user.
             Further information on data protection and your options in connection with Zendesk's
             services can be found{' '}
-            <Link href='https://www.zendesk.com/company/customers-partners/privacy-policy/'>
+            <Link href='#'>
               <RawText as='strong'>here</RawText>
             </Link>{' '}
             and Zendeks's cookie policy can be found{' '}
@@ -89,9 +89,9 @@ export const PrivacyPolicy = () => {
           </RawText>
           <RawText as='p'>
             <RawText as='strong'>Who we are and how to contact us:</RawText> The Platform and this
-            notice are maintained by the ShapeShift decentralized autonomous organization. The best
+            notice are maintained by the Mecurystocks team decentralized autonomous organization. The best
             way to get in touch with us is through our discord server, which you can join{' '}
-            <Link href='https://discord.com/invite/shapeshift'>
+            <Link href='#'>
               <RawText as='strong'>here</RawText>
             </Link>
             .

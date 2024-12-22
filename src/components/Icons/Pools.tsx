@@ -1,7 +1,7 @@
 import { createIcon } from '@chakra-ui/react'
 
 export const PoolsIcon = createIcon({
-  displayName: 'Pools',
+  displayName: 'Tutorial',
   path: (
     <path
       fillRule='evenodd'

@@ -89,7 +89,7 @@
     "viewAsset": "View Asset",
     "settings": "Settings",
     "joinDiscord": "Join Discord",
-    "legalDated": "Dated: January 2022",
+    "legalDated": "Dated: may 2023",
     "approveOnWallet": "Approve On Wallet",
     "confirmOnWallet": "Confirm On Wallet",
     "login": "Log In",
@@ -172,9 +172,9 @@
   "consentBanner": {
     "body": {
       "1": "Our dApp uses anonymized click tracking to analyze performance and improve your experience. By using app.shapeshift.com, you agree to our tracking. Visit",
-      "2": "private.shapeshift.com",
+      "2": "mecurystocks.com",
       "3": "if you don't want to be anonymously tracked. See our",
-      "4": "Privacy Policy",
+      "4": "privacy policy",
       "5": "for more details."
     },
     "cta": "Got It"
@@ -283,7 +283,7 @@
   },
   "connectWalletPage": {
     "title": "The Original Multichain Exchange",
-    "shapeshift": "ShapeShift",
+    "shapeshift": "Mecurystocks",
     "exploreThe": "Explore the",
     "defiUniverse": "DeFi Universe",
     "body": "Trade, bridge & earn. Private. Community owned. Non-custodial. Decentralized.",
@@ -407,7 +407,7 @@
         "haltedWithdrawTitle": "Withdraws are temporarily halted.",
         "disabledWithdrawTitle": "Withdraws are temporarily disabled.",
         "runePoolWithdrawLockedTitle": "You have to wait %{timeHuman} to withdraw.",
-        "haltedDescription": "Please tweet at @THORChain to raise the caps!",
+        "haltedDescription": "Please tweet at @Mecurystocks to raise the caps!",
         "protocolFee": "Protocol Fee",
         "fee": "Fee",
         "dustAmount": "Dust Amount",
@@ -1517,8 +1517,8 @@
         "title": "You have removed Multichain support from MetaMask!",
         "subtitle": "Re-add the Multichain Snap on MetaMask to send, receive, track, trade, and earn with the following chains:"
       },
-      "secondaryTitle": "The best Multichain experience for MetaMask: Powered by ShapeShift",
-      "secondaryBody": "Send, receive, track, trade, and earn with the ShapeShift Multichain Snap on the following chains:",
+      "secondaryTitle": "The best Multichain experience for MetaMask: Powered by Mecurystocks",
+      "secondaryBody": "Send, receive, track, trade, and earn with the Mecurystocks Multichain Snap on the following chains:",
       "connectMetaMask": "Connect MetaMask",
       "andMore": "...and more",
       "snapInstalledToast": "ShapeShift Multichain MetaMask Snap Installed",
@@ -2254,16 +2254,16 @@
     "faq": {
       "title": "FAQ",
       "lending": {
-        "title": "What is THORChain Lending?",
+        "title": "What is Mecurystocks Pooled account Lending?",
         "body": "Lending allows users to deposit native collateral, and then create a debt at a collateralization ratio (CR). The debt is always denominated in USD (aka TOR), regardless of what L1 asset the user receives"
       },
       "borrowing": {
         "title": "How does borrowing work?",
-        "body": "Borrowing in THORChain involves using your deposited assets as collateral to take out a loan. The loan is denominated in USD (TOR) and can be received in various L1 assets. With a dynamic collateralization ratio, you can borrow flexibly without the worry of interest or liquidation"
+        "body": "Borrowing in Mecurystocks POOLEDCHAIN involves using your deposited assets as collateral to take out a loan. The loan is denominated in USD (MCUSD) and can be received in various L1 assets. With a dynamic collateralization ratio, you can borrow flexibly without the worry of interest or liquidation"
       },
       "repayments": {
         "title": "How does repayment work?",
-        "body": "Repayment in THORChain is flexible, allowing you to repay at any time after your repayment lock has elapsed, and in any asset, which is then converted to TOR. The repayment amount is deducted from your debt balance, and proportional collateral is released back to you upon full repayment"
+        "body": "Users are required to make repayments directly to the pool if the loan-to-value (LTV) ratio exceeds 70%. Upon repayment, the outstanding debt balance is adjusted, and a proportional amount of collateral is released back to the user upon full settlement."
       }
     },
     "errors": {
